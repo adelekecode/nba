@@ -31,7 +31,7 @@ environment = os.getenv('ENVIRONMENT', 'development')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['to.up.railway.app', '127.0.0.1', '0.0.0.0:$PORT']
+ALLOWED_HOSTS = ['nba-production.up.railway.app', '127.0.0.1', '0.0.0.0:$PORT']
 
 
 # Application definition
